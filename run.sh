@@ -14,7 +14,7 @@ wget $NEXUS -O $WAR
 
 mkdir -p $APP
 
-unzip $WAR -o -d $APP
+unzip -o $WAR -d $APP
 
 sh ./bin/startup.sh
 

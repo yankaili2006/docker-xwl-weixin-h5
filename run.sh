@@ -16,6 +16,6 @@ mkdir -p $APP
 
 unzip -o $WAR -d $APP
 
-sh ./bin/startup.sh
+#sh ./bin/startup.sh
 
-tail -f logs/catalina.out
+#tail -f logs/catalina.out

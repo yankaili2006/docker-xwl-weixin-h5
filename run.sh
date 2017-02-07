@@ -2,7 +2,7 @@
 
 set -x
 
-APP=xwl-weixin
+APP=xwl-weixin-h5
 VERSION=1.0-SNAPSHOT
 WAR=$APP-$VERSION.war
 
